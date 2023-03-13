@@ -8,10 +8,13 @@
     <style>
         *{
             margin: 0;
-            
+            box-sizing: border-box;
+        
         }
         body{
-            background-color: chartreuse;
+            background-color: #4cb050;
+            width: 1275px;
+         
         }
         div{
             height: 515px;
@@ -19,30 +22,75 @@
             display: flex;
             flex-direction: column;
         justify-content:start;
-        align-items: center;
+
             background-color: #eee;
             margin: auto;
+            margin-top: 50px;
 
         }
+
         input{
-            width: 80%;
-            display: block;
+            width: 330px;
+            height: 34px;
+            
+            display: flex;
+            flex-direction: column;
+        
+align-items: center;
+margin: auto;
+margin-top: 16px;
+border: 1px solid rgb(172, 168, 168);
+color:  rgb(141, 137, 137);
+   padding-left: 10px;
+
+
         }
-    
+    .texthead{
+        font-size: 30px;
+      margin: 22px 0 0 22px;
+      color:  rgb(141, 137, 137);
+
+    }
+    .textcontuct{
+        margin: 15px 0 15px 22px;
+      color:  rgb(141, 137, 137);
+    }
+.sub{
+    margin-top: 28px;
+    margin-bottom: 28px;
+    background-color:#4cb050;
+    color: #eee;
+    text-align: center;
+ font-size: 17px;
+justify-content: center;
+}
+.texthref{
+    text-align: center;
+    justify-content: center;
+    color:  rgb(141, 137, 137);
+}
+.message{
+    text-align: left;
+    justify-content: start;
+    padding-top: 2px;
+height: 92px;
+
+}
+
     </style>
 </head>
 <body>
     <div>
       
-        <h3>Colorlib Contact Form</h3>
-        <p>contact us for custom quote</p>
+        <p class="texthead">Colorlib Contact Form</p>
+        <p class="textcontuct">contact us for custom quote</p>
 <form>
     <input type="text" value="Your name" name="name">
     <input type="email" value="Your Email Address" name="address">
     <input type="text" value="Your Web site(optional)" name="website">
-    <input type="text" value="Type yopur message here...">
-    <input type="submit" value="submit" name="submit">
-    <p>Designed <a href="#">cololib</a></p>
+    <input class="message"  type="text" value="Type yopur message here...">
+    <input class="sub" type="submit" value="submit" name="submit">
+    <p class="texthref">Designed <a href="#">cololib</a></p>
 </form>
         
     </div>
