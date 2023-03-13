@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        body{
+            background-color: #1bbc9b;
+            height: 600px;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            width: 230px;
+         line-height: 1.6;
+        }
+    
+        .part2{
+            display: flex;
+            flex-direction: column;
+         color: #89878a;
+         margin-left: -10px;
+        }
+        .part1{
+            color:#89878a;
+            margin-left: 10px;
+        }
+.textpart2{
+    width: 470px;
+    color:#89878a;
+    font-size: 20px;
+padding: 40px 0;
+}
+   span{
+  
+    font-size: 40px;
+    color: #4a4d52;
+    font-weight: 800;
+    margin-top: -20px;
+  
+   }  
+   a{
+margin: 20px;
+color:#89878a;
+text-decoration: none;
+background-color: #eee;
+padding: 2px;
+box-shadow: #949191 3px 2px 5px;
+   }  
+   .all{
+    background-color: #eee;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+width: 800px;
+height: max-content;
+margin: auto;
+padding: 50px 0;
+margin-top: 50px;
+border-radius: 10px;
+box-shadow: #636161 2px 5px 15px;
+font-family: Arial, Helvetica, sans-serif;
+
+
+   }
+   .submit{
+    background-color:#53cace;
+    border: none;
+   
+    height: 40px;
+font-size: 18px;
+color: #eee;
+border-radius: 5px;
+margin-top: 30px;
+
+   }
+   input{
+  background-color: #eee;
+    border:none;
+    border-bottom:#89878a 1px solid;
+    margin-top: -6px;
+ margin-bottom: 8px;
+   }
+    </style>
+</head>
+<body>
+    <div class="all">
+
+        <div class="part1">
+            <form>
+            <label for="">First:</label>
+            <input type="text " name="name">
+            <label>Last:</label>
+            <input type="text" name="lastname">
+            <label>Email:</label>
+            <input type="email" name="phone">
+            <lable>Phone:</lable>
+            <input type="text" name="phone">
+            <input class="submit" type="submit" name="submit" value="submit">
+        </form>
+    </div>
+    <div class="part2">
+        <span>Learn By Doing</span>
+        <p class="textpart2">Learn to code in not magic.It is as simply as opening your browser!
+            See in real time the changes to make to
+            HTML,CSS,Javascript,HAML and more!
+            
+        </p>
+        <p> Learn:<a href="">HTML<a href="">CSS<a href="">Javascript</a></p>
+    </div>
+</div>
+</body>
+</html>
